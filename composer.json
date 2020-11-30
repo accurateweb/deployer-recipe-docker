@@ -1,0 +1,36 @@
+{
+    "name": "accurateweb/deployer-recipe-docker",
+    "description": "Docker recipe for deployer, that allows to run certain tasks in docker containers",
+    "type": "library",
+    "keywords": [
+        "deployer",
+        "recipes",
+        "deploy",
+        "deployment",
+        "docker"
+    ],
+    "homepage": "https://github.com/accurateweb/deployer-recipe-docker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis N. Ragozin",
+            "email": "dragozin@accurateweb.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/accurateweb/deployer-recipe-docker/issues",
+        "source": "https://github.com/accurateweb/deployer-recipe-docker"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    },
+    "require-dev": {
+        "deployer/deployer": "^6.3"
+    },
+    "require": {
+        "php": "~7.0"
+    }
+}
